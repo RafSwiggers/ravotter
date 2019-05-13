@@ -34,3 +34,26 @@ ul.topnav li.right {float: right;}
     position: relative;
     padding: 0%;
 }
+
+
+#main > section {
+    border-top: solid 6px #f4f4f4;
+}
+
+    #main > section > .container {
+        padding: 6em 0 4em 0;
+    }
+
+    #main > section:first-child {
+        border-top: 0;
+    }
+
+    #main > section > .container {
+        padding: 4em 0 2em 0;
+    }
+
+    .card{
+        margin: auto auto;
+        width: 50vw;
+
+    }
